@@ -22,7 +22,8 @@
       "ikappas.phpcs",
       "ms-azuretools.vscode-docker",
       "timonwong.shellcheck",
-      "tyriar.sort-lines"
+      "tyriar.sort-lines",
+      "ms-azuretools.vscode-docker"
     ],
     "postCreateCommand": "bash scripts/install-dependencies.sh"
 }
