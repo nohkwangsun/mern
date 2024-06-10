@@ -4,7 +4,7 @@ RUN apt-get update && apt-get -y install curl git nodejs
 
 # mongodb
 RUN curl -sL https://fastdl.mongodb.org/linux/mongodb-linux-aarch64-ubuntu2204-7.0.11.tgz | tar xvz && \
-    mv mongodb-linux-aarch64-ubuntu2204-7.0.11/* /usr/local/bin/ && \
+    mv mongodb-linux-aarch64-ubuntu2204-7.0.11/bin/* /usr/local/bin/ && \
     rm -rf mongodb-linux-aarch64-ubuntu2204-7.0.11/ && \
     mkdir -p /var/lib/mongo && chown `whoami` /var/lib/mongo && \
     mkdir -p /var/log/mongodb && chown `whoami` /var/log/mongodb

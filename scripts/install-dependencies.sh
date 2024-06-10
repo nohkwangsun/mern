@@ -1,3 +1,4 @@
 #!/bin/bash
 
-echo "Welcome to the mern stack world"
+mongod --dbpath /var/lib/mongo --logpath /var/log/mongodb/mongod.log --bind_ip_all --fork && \
+echo "MongoDB Running"
