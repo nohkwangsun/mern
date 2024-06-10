@@ -1,1 +1,3 @@
-git clone https://github.com/nohkwangsun/mern.git
+#!/bin/bash
+
+echo "Welcome to the mern stack world"
