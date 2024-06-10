@@ -1,6 +1,6 @@
 FROM ubuntu:24.10
 
-RUN apt-get update && apt-get -y install curl git nodejs
+RUN apt-get update && apt-get -y install curl git nodejs npm
 
 # mongodb
 RUN curl -sL https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-ubuntu2204-7.0.11.tgz | tar xvz && \
